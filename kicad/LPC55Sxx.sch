@@ -298,12 +298,6 @@ Text HLabel 8950 2700 2    50   Input ~ 0
 SENSE2
 Text HLabel 8950 2800 2    50   Input ~ 0
 SENSE3
-Text HLabel 8950 2950 2    50   Input ~ 0
-CHARGE1
-Text HLabel 8950 3050 2    50   Input ~ 0
-CHARGE2
-Text HLabel 8950 3150 2    50   Input ~ 0
-CHARGE3
 Text Notes 8300 2550 0    50   ~ 0
 Support 3 capacitive touch buttons.\nUses RC acquisition principle.  \nSee ST AN2927.
 Text Label 5250 6700 0    50   ~ 0
@@ -330,8 +324,6 @@ Text Notes 6800 1000 0    50   ~ 0
 ADC channel 3
 Text Label 6500 3200 0    50   ~ 0
 SENSE2
-Wire Wire Line
-	6450 4100 6200 4100
 Text Notes 6850 3200 0    50   ~ 0
 COMP input B
 Text Label 6000 6200 0    50   ~ 0
@@ -795,4 +787,20 @@ Wire Wire Line
 Connection ~ 10500 4950
 Wire Wire Line
 	10500 4950 10650 4950
+Text HLabel 8900 2100 2    50   Input ~ 0
+NFC_GPIO
+Text Label 6450 4150 0    50   ~ 0
+NFC_GPIO
+Wire Wire Line
+	6450 4150 6350 4150
+Wire Wire Line
+	6350 4150 6350 4100
+Wire Wire Line
+	6350 4100 6200 4100
+Text HLabel 8950 3150 2    50   Input ~ 0
+CHARGE3
+Text HLabel 8950 3050 2    50   Input ~ 0
+CHARGE2
+Text HLabel 8950 2950 2    50   Input ~ 0
+CHARGE1
 $EndSCHEMATC
